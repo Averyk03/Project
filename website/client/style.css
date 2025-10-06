@@ -1,0 +1,431 @@
+/* Basic elements on the webpage css */
+.header {
+    background-color: #c5dcff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  body{
+    background-color: #f0f0f0;
+    padding: 30px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Main Page css */
+  .image_container {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+  }
+    
+  .image_container img {
+    width: 100%;
+  }
+  
+  .image_container button {
+    background-color: greenyellow;
+  }
+    
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
+  
+  .news h2 {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Facility Page css */
+  .facility {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  .facility h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .facility h2 {
+    color: #3E8BFF;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .facility p {
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .facility-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .facility-card {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px 30px;
+    width: 280px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .facility-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .facility-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #3E8BFF;
+    text-align: center;
+  }
+  
+  .facility-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+  }
+  
+  .facility-card li {
+    padding: 6px 0;
+    font-size: 15px;
+    color: #444;
+    border-bottom: 1px dashed #ddd;
+  }
+  
+  .facility-card li:last-child {
+    border-bottom: none;
+  }
+  
+  .facility-card.closed {
+    background: #ffe5e5;
+    border-color: #ff9999;
+  }
+  
+  .facility-card.closed h3 {
+    color: #d32f2f;
+  }
+  
+  
+  /* Schedule Page css */
+  .booking-container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #facility-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .calendar-day {
+    padding: 15px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calendar-day:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  #availability-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #availability-table th, #availability-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .book-btn {
+    background: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .book-btn:hover {
+    background: #218838;
+  }
+  
+  /* New Booking Page css */
+  .new_booking form{
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .new_booking h2{
+    text-align: center;
+  }
+  
+  /* View Me Booking Page css */
+  .view_booking {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.view_booking h2,
+.view_booking h3 {
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.view_booking table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.view_booking th,
+.view_booking td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.view_booking th {
+    background-color: #f4f4f4;
+    color: #222;
+    font-weight: bold;
+}
+
+.view_booking tr:hover {
+    background-color: #f9f9f9;
+}
+
+.view_booking .action-btn {
+    display: inline-block;
+    background-color: #008cba;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.view_booking .action-btn:hover {
+    background-color: #005f7a;
+}
+  
+  /* Contact Page css */
+  .contact form {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact h2 {
+    text-align: center;
+  }
+  
+  /* Login page form css */
+  .login {
+    text-align: center;
+  }
+  
+  .login button{
+    background-color: #3E8BFF;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  .login p{
+    color:#828282;
+  }
+  
+  
+  .login form {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .login input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login input[type=submit] {
+    background-color: rgb(35, 248, 35);
+  }
+  
+  /* Register page css */
+  .register form {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .register input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register p{
+    text-align: center;
+    color: #828282;
+    margin: 20px;
+  }
+  
+  .register h2{
+    text-align: center;
+  }
+  
+  .register input[type=submit] {
+    background-color: rgb(35, 248, 35);
+  }
+  
+  
+  /* Navbar css (with dropdown) */
+  .topnav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #3E8BFF;
+    }
+    
+    .topnav a {
+      flex: 1;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  
+  
+    .dropdown {
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; 
+      margin: 0; 
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #3f17f5;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: rgb(249, 159, 32);
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }

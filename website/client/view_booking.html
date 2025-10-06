@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ace Sports Hub Sport Facility Booking Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="global.js"></script>
+    <script defer src="view_booking.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Ace Sports Hub</h1>
+        <p>Your Health, Your Journey, Your Center.</p>
+        <div class="topnav">
+            <a href="main.html">Home</a>
+            <a href="facility.html">Facility</a>
+            <a href="schedule.html">Schedule</a>
+            <div class="dropdown">
+                <button class="dropbtn">Booking
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="new_booking.html">New Booking</a>
+                    <a href="view_booking.html">View my booking</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact Us</a>
+            <a href="#" id="authLink">Login</a>
+        </div>
+    </div>
+
+    <!-- Booking Tables -->
+    <div class="view_booking">
+        <h2>My Bookings</h2>
+
+        <h3>Upcoming Bookings</h3>
+        <table id="upcomingBookingsTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Facility</th>
+                    <th>Remark</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h3>Booking History</h3>
+        <table id="pastBookingsTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Facility</th>
+                    <th>Remark</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Ace Sports Hub. All rights reserved.</p>
+        <address>
+            Written by <a href="mailto:averyk@my.yorku.ca">Wing Yan Kwan</a>.<br> 
+            ITEC 3020 Section M<br>
+            York University<br>
+            4700 Keele Street<br>
+            Canada
+        </address>
+    </div>
+</body>
+</html>

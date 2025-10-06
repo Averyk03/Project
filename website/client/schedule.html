@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ace Sports Hub Sport Facility Booking Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="global.js"></script>
+    <script src="schedule.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Ace Sports Hub</h1>
+        <p>Your Health, Your Journey, Your Center.</p>
+            <div class="topnav">
+                <a href="main.html">Home</a>
+                <a href="facility.html">Facility</a>
+                <a href="schedule.html">Schedule</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Booking
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="new_booking.html">New Booking</a>
+                        <a href="view_booking.html">View my booking</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact Us</a>
+                <a href="#" id="authLink">Login</a>
+            </div>
+    </div><br>
+
+    <!--Choose facility, then show calendar, then show availability-->
+    <div class="booking_contariner">
+        <label for="facility-select">Choose a Facility:</label>
+        <select id="facility-select">
+            <option value="">--Please choose below--</option>
+            <option value="badminton">Badminton Court</option>
+            <option value="basketabll">Basketabll</option>
+            <option value="futsal">Futsal Court</option>
+            <option value="outdoor_tennis">Outdoor Tennis Court</option>
+            <option value="pickleball">Pickleball Court</option>
+            <option value="studio">Studio</option>
+            <option value="squash">Squash Court</option>
+            <option value="volleyball">Volleyball Court</option>
+        </select>
+        <div id="calendar"></div>
+        
+        <div id="availability-container">
+            <table id="availability-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Number of Courts Available</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- availability will show here-->
+                </tbody>
+            </table>
+        </div>
+    </div><br>
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Ace Sports Hub. All rights reserved.</p>
+        <address>
+            Written by <a href="mailto:averyk@my.yorku.ca">Wing Yan Kwan</a>.<br> 
+            ITEC 3020 Section M<br>
+            York University<br>
+            4700 Keele Street<br>
+            Canada
+        </address>
+    </div>
+</body>
+</html>

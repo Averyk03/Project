@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ace Sports Hub Sport Facility Booking Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="global.js"></script>
+    <script src="register.js"></script>
+</head>
+<body>
+       <!-- Header -->
+       <div class="header">
+        <h1>Ace Sports Hub</h1>
+        <p>Your Health, Your Journey, Your Center.</p>
+            <div class="topnav">
+                <a href="main.html">Home</a>
+                <a href="facility.html">Facility</a>
+                <a href="schedule.html">Schedule</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Booking
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="new_booking.html">New Booking</a>
+                        <a href="view_booking.html">View my booking</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact Us</a>
+                <a href="#" id="authLink">Login</a>
+            </div>
+    </div>
+
+    <!--Register Form-->
+    <div class="register">
+        <h2>Register with Us</h2>
+        <form id="registerForm">
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="DOB">Date of Birth</label>
+            <input type="date" id="DOB" name="DOB"><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="email@domain.com"><br>
+            
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx"><br><br>
+            
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password"><br>
+            
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password"><br><br>
+            
+            <label for="address">Address: 
+                <input type="text" id="street" name="street" placeholder="Street Address">
+                
+                <input type="text" id="city" name="city" placeholder="City">
+                
+                <select id="province" name="province">
+                    <option value="">--Select--</option>
+                    <option value="ab">Alberta</option>
+                    <option value="bc">British Columbia</option>
+                    <option value="mb">Manitoba</option>
+                    <option value="nb">New Brunswick</option>
+                    <option value="nl">Newfoundland and Labrador</option>
+                    <option value="ns">Nova Scotia</option>
+                    <option value="nt">Northwest Territories</option>
+                    <option value="nu">Nunavut</option>
+                    <option value="on">Ontario</option>
+                    <option value="pe">Prince Edward Island</option>
+                    <option value="qc">Quebec</option>
+                    <option value="sk">Saskatchewan</option>
+                    <option value="yk">Yukon</option>
+                </select><br>
+                
+                <input type="text" id="zip" name="zip" placeholder="Postal Code">
+                
+                <input type="text" id="country" name="country" placeholder="Canada">
+            
+            </label><br>
+            <p>Please make sure everything is accurate. You will not be able to make changes by yourself after registered.<br>
+                Please <a href="contact.html" target="_blank">contact us</a> here if you need any assist.<br>By clicking register me, you agree to our 
+                <a href="https://policies.google.com/terms?hl=en-US" target="_blank">Terms of Service</a> 
+                and <a href="https://www.ymca.ca/privacy-policy" target="_blank">Privacy Policy</a></p>
+            
+            <button type="button" onclick="Register()">Register Me</button>
+        </form><br>
+        </div>
+
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Ace Sports Hub. All rights reserved.</p>
+        <address>
+            Written by <a href="mailto:averyk@my.yorku.ca">Wing Yan Kwan</a>.<br> 
+            ITEC 3020 Section M<br>
+            York University<br>
+            4700 Keele Street<br>
+            Canada
+        </address>
+    </div>
+</body>
+</html>

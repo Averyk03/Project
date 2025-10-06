@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ace Sports Hub Sport Facility Booking Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="global.js"></script>
+    <script src="contact.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Ace Sports Hub</h1>
+        <p>Your Health, Your Journey, Your Center.</p>
+            <div class="topnav">
+                <a href="main.html">Home</a>
+                <a href="facility.html">Facility</a>
+                <a href="schedule.html">Schedule</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Booking
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="new_booking.html">New Booking</a>
+                        <a href="view_booking.html">View my booking</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact Us</a>
+                <a href="#" id="authLink">Login</a>
+            </div>
+    </div>
+
+    <!--Contact form-->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactform" action="#" method="POST">
+            <label for="name">Name: </label><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name here" required><br><br>
+            <label for="email">Email: </label><br><br>
+            <input type="email" id="email" name="email" placeholder="email@domain.com" required><br><br>
+            <label for="phone">Phone No: </label><br><br>
+            <input type="text" id="phone" name="phone" placeholder="Enter phone" required><br><br>
+            <label for="message">Message:</label><br><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form><br>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Ace Sports Hub. All rights reserved.</p>
+        <address>
+            Written by <a href="mailto:averyk@my.yorku.ca">Wing Yan Kwan</a>.<br> 
+            ITEC 3020 Section M<br>
+            York University<br>
+            4700 Keele Street<br>
+            Canada
+        </address>
+    </div>
+</body>
+</html>
