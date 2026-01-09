@@ -1,0 +1,12 @@
+# Avery Kwan – Projects Portfolio
+
+This repository contains selected academic and personal projects in data analysis, databases, and web development.
+
+## About Me
+I am an Information Technology student graduating in Spring 2026 with a strong interest in data analysis and database-related roles. I enjoy turning data into insights using SQL, Python, and Excel.
+
+## Projects
+### Sports Facility Booking Platform
+- **Description:** Designed and developed a full-stack web application for managing sports facility bookings.
+- **Tools:** HTML, CSS, JavaScript, Node.js, MySQL
+- **Key Skills:** Database design, backend logic, UI prototyping
