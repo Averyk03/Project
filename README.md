@@ -11,11 +11,13 @@ I am an Information Technology student graduating in Spring 2026 with a strong i
 - **Tools:** Excel (Pivot Tables, Charts)
 - **Key Skills:** EDA, data visualization, business insights
 
+### NYC Schools SAT 
+
+
 ### Sports Facility Booking Platform
 - **Description:** Designed and developed a full-stack web application for managing sports facility bookings.
 - **Tools:** HTML, CSS, JavaScript, Node.js, MySQL
 - **Key Skills:** Database design, backend logic, UI prototyping
-
 
 ## Contact
 - **Linkedin:** www.linkedin.com/in/avery-kwan-9891ab301
