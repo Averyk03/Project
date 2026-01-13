@@ -19,7 +19,7 @@ I am an Information Technology student graduating in Spring 2026 with a strong i
 ### Sports Facility Booking Platform
 - **Description:** Designed and developed a full-stack web application for managing sports facility bookings.
 - **Tools:** HTML, CSS, JavaScript, Node.js, MySQL
-- **Key Skills:** Database design, backend logic, UI prototyping
+- **Key Skills:** Database design, backend logic, UI prototyping(Figma)
 
 ## Contact
 - **Linkedin:** www.linkedin.com/in/avery-kwan-9891ab301
