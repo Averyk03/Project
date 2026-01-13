@@ -1,4 +1,4 @@
-# Avery Kwan – Projects Portfolio
+# Avery Kwan – Portfolio
 
 This repository contains selected academic and personal projects in data analysis, databases, and web development.
 
