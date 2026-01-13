@@ -11,8 +11,10 @@ I am an Information Technology student graduating in Spring 2026 with a strong i
 - **Tools:** Excel (Pivot Tables, Charts)
 - **Key Skills:** EDA, data visualization, business insights
 
-### NYC Schools SAT 
-
+### NYC Schools SAT Analysis
+- **Description:** Analyzed standardized test scores to identify performance trends across NYC public schools.
+- **Tools:** SQL, Python(Pandas)
+- **Key Skills:** Data cleaning, aggregation, exploratory analysis
 
 ### Sports Facility Booking Platform
 - **Description:** Designed and developed a full-stack web application for managing sports facility bookings.
