@@ -10,7 +10,7 @@ I am an Information Technology student graduating in Spring 2026 with a strong i
 - **Description:** Investigated customer churn patterns for a fictitious telecom company and built an Excel dashboard.
 - **Tools:** Excel (Pivot Tables, Charts)
 - **Key Skills:** EDA, data visualization, business insights
-- <a href = "https://public.tableau.com/views/ChurnAnalysis_17685255604240/ChurnAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Tableau Story </a>
+- <a href = "https://public.tableau.com/views/ChurnAnalysis_17685255604240/ChurnAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Tableau Dashboard </a>
 
 ### NYC Schools SAT Analysis
 - **Description:** Analyzed standardized test scores to identify performance trends across NYC public schools.
