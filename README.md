@@ -23,5 +23,5 @@ I am an Information Technology student graduating in Spring 2026 with a strong i
 - **Key Skills:** Database design, backend logic, UI prototyping(Figma)
 
 ## Contact
-- **Linkedin:** www.linkedin.com/in/avery-kwan-9891ab301
+- **Linkedin:** www.linkedin.com/in/averykwan
 - **Email:** kwanwingyan2003@gmail.com
